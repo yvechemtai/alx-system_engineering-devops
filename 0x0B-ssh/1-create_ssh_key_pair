@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-# Set the desired key name and bits
+# Create an RSA key pair
+ssh-keygen -b 4096 -f school -N betty
 
+#!/bin/bash
+
+# Set the desired key name and bits
 KEY_NAME="school"
 BITS=4096
 
